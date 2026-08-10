@@ -1,3 +1,6 @@
+
+This is just a AI agent friendly ionic component documents
+
 # API Index
 
 URL: https://ionicframework.com/docs/api
