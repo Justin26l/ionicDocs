@@ -11,211 +11,211 @@ Version: v8 Each Ionic [component](/docs/components) consists of one or more [cu
 
 #### Accordion
 
-- [accordion](api/accordion)
-- [accordion-group](api/accordion-group)
+- [accordion](api/accordion.md)
+- [accordion-group](api/accordion-group.md)
 
 #### Action Sheet
 
-- [action-sheet](api/action-sheet)
+- [action-sheet](api/action-sheet.md)
 
 #### Alert
 
-- [alert](api/alert)
+- [alert](api/alert.md)
 
 #### Badge
 
-- [badge](api/badge)
+- [badge](api/badge.md)
 
 #### Breadcrumbs
 
-- [breadcrumb](api/breadcrumb)
-- [breadcrumbs](api/breadcrumbs)
+- [breadcrumb](api/breadcrumb.md)
+- [breadcrumbs](api/breadcrumbs.md)
 
 #### Button
 
-- [button](api/button)
-- [ripple-effect](api/ripple-effect)
+- [button](api/button.md)
+- [ripple-effect](api/ripple-effect.md)
 
 #### Card
 
-- [card](api/card)
-- [card-content](api/card-content)
-- [card-header](api/card-header)
-- [card-subtitle](api/card-subtitle)
-- [card-title](api/card-title)
+- [card](api/card.md)
+- [card-content](api/card-content.md)
+- [card-header](api/card-header.md)
+- [card-subtitle](api/card-subtitle.md)
+- [card-title](api/card-title.md)
 
 #### Checkbox
 
-- [checkbox](api/checkbox)
+- [checkbox](api/checkbox.md)
 
 #### Chip
 
-- [chip](api/chip)
+- [chip](api/chip.md)
 
 #### Content
 
-- [app](api/app)
-- [content](api/content)
+- [app](api/app.md)
+- [content](api/content.md)
 
 #### Date & Time Pickers
 
-- [datetime](api/datetime)
-- [datetime-button](api/datetime-button)
-- [picker](api/picker)
-- [picker-column](api/picker-column)
-- [picker-column-option](api/picker-column-option)
-- [picker-legacy](api/picker-legacy)
+- [datetime](api/datetime.md)
+- [datetime-button](api/datetime-button.md)
+- [picker](api/picker.md)
+- [picker-column](api/picker-column.md)
+- [picker-column-option](api/picker-column-option.md)
+- [picker-legacy](api/picker-legacy.md)
 
 #### Floating Action Button
 
-- [fab](api/fab)
-- [fab-button](api/fab-button)
-- [fab-list](api/fab-list)
+- [fab](api/fab.md)
+- [fab-button](api/fab-button.md)
+- [fab-list](api/fab-list.md)
 
 #### Grid
 
-- [grid](api/grid)
-- [col](api/col)
-- [row](api/row)
+- [grid](api/grid.md)
+- [col](api/col.md)
+- [row](api/row.md)
 
 #### Icons
 
-- [icon](api/icon)
+- [icon](api/icon.md)
 
 #### Infinite Scroll
 
-- [infinite-scroll](api/infinite-scroll)
-- [infinite-scroll-content](api/infinite-scroll-content)
+- [infinite-scroll](api/infinite-scroll.md)
+- [infinite-scroll-content](api/infinite-scroll-content.md)
 
 #### Inputs
 
-- [input](api/input)
-- [input-password-toggle](api/input-password-toggle)
-- [input-otp](api/input-otp)
-- [textarea](api/textarea)
+- [input](api/input.md)
+- [input-password-toggle](api/input-password-toggle.md)
+- [input-otp](api/input-otp.md)
+- [textarea](api/textarea.md)
 
 #### Item
 
-- [item](api/item)
-- [item-divider](api/item-divider)
-- [item-group](api/item-group)
-- [item-sliding](api/item-sliding)
-- [item-options](api/item-options)
-- [item-option](api/item-option)
-- [label](api/label)
-- [note](api/note)
+- [item](api/item.md)
+- [item-divider](api/item-divider.md)
+- [item-group](api/item-group.md)
+- [item-sliding](api/item-sliding.md)
+- [item-options](api/item-options.md)
+- [item-option](api/item-option.md)
+- [label](api/label.md)
+- [note](api/note.md)
 
 #### List
 
-- [list](api/list)
-- [list-header](api/list-header)
+- [list](api/list.md)
+- [list-header](api/list-header.md)
 
 #### Media
 
-- [avatar](api/avatar)
-- [icon](api/icon)
-- [img](api/img)
-- [thumbnail](api/thumbnail)
+- [avatar](api/avatar.md)
+- [icon](api/icon.md)
+- [img](api/img.md)
+- [thumbnail](api/thumbnail.md)
 
 #### Menu
 
-- [menu](api/menu)
-- [menu-button](api/menu-button)
-- [menu-toggle](api/menu-toggle)
-- [split-pane](api/split-pane)
+- [menu](api/menu.md)
+- [menu-button](api/menu-button.md)
+- [menu-toggle](api/menu-toggle.md)
+- [split-pane](api/split-pane.md)
 
 #### Modal
 
-- [modal](api/modal)
-- [backdrop](api/backdrop)
+- [modal](api/modal.md)
+- [backdrop](api/backdrop.md)
 
 #### Navigation
 
-- [nav](api/nav)
-- [nav-link](api/nav-link)
+- [nav](api/nav.md)
+- [nav-link](api/nav-link.md)
 
 #### Popover
 
-- [popover](api/popover)
+- [popover](api/popover.md)
 
 #### Progress Indicators
 
-- [loading](api/loading)
-- [progress-bar](api/progress-bar)
-- [skeleton-text](api/skeleton-text)
-- [spinner](api/spinner)
+- [loading](api/loading.md)
+- [progress-bar](api/progress-bar.md)
+- [skeleton-text](api/skeleton-text.md)
+- [spinner](api/spinner.md)
 
 #### Radio
 
-- [radio](api/radio)
-- [radio-group](api/radio-group)
+- [radio](api/radio.md)
+- [radio-group](api/radio-group.md)
 
 #### Range
 
-- [range](api/range)
+- [range](api/range.md)
 
 #### Refresher
 
-- [refresher](api/refresher)
-- [refresher-content](api/refresher-content)
+- [refresher](api/refresher.md)
+- [refresher-content](api/refresher-content.md)
 
 #### Reorder
 
-- [reorder](api/reorder)
-- [reorder-group](api/reorder-group)
+- [reorder](api/reorder.md)
+- [reorder-group](api/reorder-group.md)
 
 #### Routing
 
-- [router](api/router)
-- [router-link](api/router-link)
-- [router-outlet](api/router-outlet)
-- [route](api/route)
-- [route-redirect](api/route-redirect)
+- [router](api/router.md)
+- [router-link](api/router-link.md)
+- [router-outlet](api/router-outlet.md)
+- [route](api/route.md)
+- [route-redirect](api/route-redirect.md)
 
 #### Searchbar
 
-- [searchbar](api/searchbar)
+- [searchbar](api/searchbar.md)
 
 #### Segment
 
-- [segment](api/segment)
-- [segment-button](api/segment-button)
-- [segment-content](api/segment-content)
-- [segment-view](api/segment-view)
+- [segment](api/segment.md)
+- [segment-button](api/segment-button.md)
+- [segment-content](api/segment-content.md)
+- [segment-view](api/segment-view.md)
 
 #### Select
 
-- [select](api/select)
-- [select-option](api/select-option)
+- [select](api/select.md)
+- [select-option](api/select-option.md)
 
 #### Tabs
 
-- [tabs](api/tabs)
-- [tab](api/tab)
-- [tab-bar](api/tab-bar)
-- [tab-button](api/tab-button)
+- [tabs](api/tabs.md)
+- [tab](api/tab.md)
+- [tab-bar](api/tab-bar.md)
+- [tab-button](api/tab-button.md)
 
 #### Toast
 
-- [toast](api/toast)
+- [toast](api/toast.md)
 
 #### Toggle
 
-- [toggle](api/toggle)
+- [toggle](api/toggle.md)
 
 #### Toolbar
 
-- [toolbar](api/toolbar)
-- [header](api/header)
-- [footer](api/footer)
-- [title](api/title)
-- [buttons](api/buttons)
-- [back-button](api/back-button)
+- [toolbar](api/toolbar.md)
+- [header](api/header.md)
+- [footer](api/footer.md)
+- [title](api/title.md)
+- [buttons](api/buttons.md)
+- [back-button](api/back-button.md)
 
 #### Typography
 
-- [text](api/text)
+- [text](api/text.md)
 
 #### Resources
 
-- [api](api)
+- [api](api.md)
