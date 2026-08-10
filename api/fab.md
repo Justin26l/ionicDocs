@@ -1,0 +1,115 @@
+# ion-fab
+
+URL: https://ionicframework.com/docs/api/fab
+
+Version: v8
+[shadow](/docs/reference/glossary#shadow)Fabs are container elements that contain one or more [fab buttons](/docs/api/fab-button) . They should be placed in a fixed position that does not scroll with the content. Fabs should have one main fab button. Fabs can also contain one or more [fab lists](/docs/api/fab-list) which contain related buttons that show when the main fab button is clicked.
+
+## Basic Usage
+
+## List Side
+
+The `side` property of the [fab list](/docs/api/fab-list) component controls where it appears relative to the main fab button. A single fab can have multiple fab lists as long as they all have different values for `side` .
+
+## Positioning
+
+In order to place the fab in a fixed position, it should be assigned to the `fixed` slot of the outer [content](/docs/api/content) component. Use the `vertical` and `horizontal` props to control the alignment of the fab in the viewport. The `edge` prop will cause the fab button to overlap with the app's header or footer.
+
+### Safe Area
+
+If there is no `ion-header` or `ion-footer` component, the fab may be covered by a device's notch, status bar, or other device UI. In these cases, the [safe area](/docs/theming/advanced#safe-area-padding) on the top and bottom is not taken into account. This can be adjusted by using the [`--ion-safe-area-(dir)` variables](/docs/theming/advanced#application-variables) .
+
+When using a fab with `vertical` set to `"top"` without an `ion-header` , the top margin needs to be set:
+
+```css
+ion-fab {
+  margin-top: var(--ion-safe-area-top, 0);
+}
+```
+
+And when using a fab with `vertical` set to `"bottom"` without an `ion-footer` , the bottom margin needs to be set:
+
+```css
+ion-fab {
+  margin-bottom: var(--ion-safe-area-bottom, 0);
+}
+```
+
+If there is an `ion-header` (for a fab with `vertical` set to `"top"` ) or `ion-footer` (for a fab with `vertical` set to `"bottom"` ), no CSS adjustment is needed because the fab gets positioned relative to the header or footer.
+
+### Relative to Infinite List
+
+In scenarios where a view contains many interactive elements, such as an infinitely-scrolling list, it may be challenging for users to navigate to the Floating Action Button (FAB) if it is placed below all the items in the DOM.
+
+By setting the `fixedSlotPlacement` property on [Content](/docs/api/content) to `before` , the FAB will be placed before the main content in the DOM. This ensures that the FAB receives keyboard focus before other interactive elements receive focus, making it easier for users to access the FAB.
+
+## Button Sizing
+
+Setting the `size` property of the main fab button to `"small"` will render it at a mini size. Note that this property will not have an effect when used with the inner fab buttons.
+
+## Theming
+
+### Colors
+
+### CSS Custom Properties
+
+### CSS Shadow Parts
+
+## Accessibility
+
+### Labels
+
+Since FABs are allowed to contain only icons, developers must provide an `aria-label` on each `ion-fab-button` instance. Without this label, assistive technologies will not be able to announce the purpose of each button.
+
+## Properties
+
+### activated
+
+| **Description** | If `true` , both the `ion-fab-button` and all `ion-fab-list` inside `ion-fab` will become active. That means `ion-fab-button` will become a `close` icon and `ion-fab-list` will become visible. 
+| **Attribute** | `activated` 
+| **Type** | `boolean` 
+| **Default** | `false` 
+
+### edge
+
+| **Description** | If `true` , the fab will display on the edge of the header if `vertical` is `"top"` , and on the edge of the footer if it is `"bottom"` . Should be used with a `fixed` slot. 
+| **Attribute** | `edge` 
+| **Type** | `boolean` 
+| **Default** | `false` 
+
+### horizontal
+
+| **Description** | Where to align the fab horizontally in the viewport. 
+| **Attribute** | `horizontal` 
+| **Type** | `"center" ｜ "end" ｜ "start" ｜ undefined` 
+| **Default** | `undefined` 
+
+### vertical
+
+| **Description** | Where to align the fab vertically in the viewport. 
+| **Attribute** | `vertical` 
+| **Type** | `"bottom" ｜ "center" ｜ "top" ｜ undefined` 
+| **Default** | `undefined` 
+
+## Events
+
+No events available for this component.
+
+## Methods
+
+### close
+
+| **Description** | Close an active FAB list container. 
+| **Signature** | `close() => Promise<void>` 
+
+## CSS Shadow Parts
+
+No CSS shadow parts available for this component.
+
+## CSS Custom Properties
+
+No CSS custom properties available for this component.
+
+## Slots
+
+No slots available for this component.
